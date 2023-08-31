@@ -17,6 +17,6 @@
 }
 
 .header-menu>li:hover{
-    color: var(orange);
+    color: orange;
     cursor: pointer;
 }
