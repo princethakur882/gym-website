@@ -6,19 +6,19 @@ export const testimonialsData = [
   {
     image: image1,
     review:
-      "I made the right choice by choosing the Fitclub!",
+      "Perfect Gym is a great place to work out. It has a wide variety of equipment, including cardio machines, weight machines, and free weights. The staff is friendly and helpful, and the gym is always clean.",
     name: 'MATHEW HENDRICKSON',
     status : 'ENTREPRENEUR'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    review: 'The cost of the membership is reasonable, and the hours of operation are convenient. Overall, Perfect Gym is a great value for the price.',
     name: 'JOHN KEVIN',
     status: 'COACH'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing',
+    review:'I would highly recommend Perfect Gym to anyone who is looking for a great place to work out. It has everything you need to get in shape and stay healthy.',
     name: 'FRANKLIN',
     status: "CUSTOMER"
   }

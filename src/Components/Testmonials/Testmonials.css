@@ -1,13 +1,7 @@
-.Testmonials {
+.Testimonials {
   display: flex;
   gap: 1rem;
   padding: 0 2rem;
-}
-
-.right-t {
-  flex-direction: row;
-  flex: 1;
-  position: relative;
 }
 
 .left-t {
@@ -20,7 +14,6 @@
 }
 
 .left-t > :nth-child(1) {
-  display: flex;
   color: orange;
   font-weight: bold;
 }
@@ -39,6 +32,7 @@
 }
 
 .right-t {
+  flex-direction: row;
   flex: 1;
   position: relative;
 }
@@ -66,7 +60,20 @@
   position: absolute;
   width: 17rem;
   height: 19rem;
-  background-color: var(--planCard);
-  right: 9rem;
+  background: var(--planCard);
+  right: 7rem;
   top: 4rem;
+}
+
+.arrows {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 3rem;
+}
+
+.arrows > img {
+  width: 1.5rem;
+  cursor: pointer;
 }
