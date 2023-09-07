@@ -1,22 +1,21 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
-.logo{
-    width: 10rem;
-    height: 3rem;
+.logo {
+  width: 10rem;
+  height: 3rem;
 }
 
-.header-menu{
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    color: white;
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
 }
 
-.header-menu>li:hover{
-    color: orange;
-    cursor: pointer;
+.header-menu > li:hover {
+  color: orange;
+  cursor: pointer;
 }
