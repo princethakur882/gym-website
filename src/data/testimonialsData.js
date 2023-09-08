@@ -12,7 +12,7 @@ export const testimonialsData = [
   },
   {
     image: image2,
-    review: 'The cost of the membership is reasonable, and the hours of operation are convenient. Overall, Perfect Gym is a great value for the price.',
+    review: 'Hands down, best choice I’ve made training at (GN). VERY friendly team who make me actually want to go train. I look forward to walking through the doors and always feel amazing when I leave.',
     name: 'JOHN KEVIN',
     status: 'COACH'
   },
