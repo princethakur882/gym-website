@@ -2,13 +2,27 @@
   gap: 2rem;
 }
 
-.planes-container {
-  margin-top: 4rem;
+.plans-container {
+  margin-top: -4rem;
   padding: 0 2rem;
   display: flex;
   flex-direction: column;
-  gap: 4;
+  gap: 4rem;
   position: relative;
+}
+
+.plans-blur-1 {
+  width: 32rem;
+  height: 23rem;
+  top: 6rem;
+  left: 0rem;
+}
+
+.plans-blur-2 {
+  width: 32rem;
+  height: 23rem;
+  top: 10rem;
+  right: 0rem;
 }
 
 .plans {
@@ -16,7 +30,6 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  padding: 50px;
 }
 
 .plan {

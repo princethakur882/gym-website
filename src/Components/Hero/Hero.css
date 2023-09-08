@@ -7,6 +7,9 @@
   padding: 2rem;
   padding-top: 1.5rem;
   flex: 3;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
 }
 
 .right-h {
@@ -177,4 +180,10 @@
 .calories > div > :nth-child(2) {
   color: white;
   font-size: 1rem;
+}
+
+.hero-blur{
+  width: 22rem;
+  height: 30rem;
+  left: 0;
 }

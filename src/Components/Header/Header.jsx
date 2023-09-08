@@ -8,9 +8,9 @@ const Header = () => {
       <ul className="header-menu">
         <li>Home</li>
         <li>Program</li>
+        <li>Why Us</li>
         <li>Plans</li>
         <li>Testimonials</li>
-        <li>Contact Us</li>
       </ul>
     </div>
   );
