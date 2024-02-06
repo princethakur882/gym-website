@@ -7,7 +7,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { toast } from "react-toastify";
 const Join = () => {
 const schema=Yup.object().shape({
-  user_name:Yup.string().min(4,"MiNIMUM 4 chars required").max(15,"cant exceed more than 15 chars").required("name is required"),
+  user_name:Yup.string().min(4,"minimum 4 characters required").max(20,"cant exceed more than 20 characters").required("name is required"),
   user_email:Yup.string().email().required(),
   message:Yup.string().required()
 })

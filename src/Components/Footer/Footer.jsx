@@ -7,26 +7,10 @@ import Logo from "../../assets/logo.png";
 import Location from "../../assets/location.png";
 import Email from "../../assets/mail.png";
 import Call from "../../assets/call.png";
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <>
-      {/* <div className="Footer-container">
-      <div className="left-f footer">
-        <div className="logo-f">
-          <img src={Logo} alt="" />
-        </div>
-        <div className="social-links">
-          <img src={Github} alt="github" />
-          <img src={Instagram} alt="instagram" />
-          <img src={LinkedIn} alt="linkedin" />
-        </div>
-        <div className=" center-f footer"></div>
-        <div className=" right-f footer"></div>
-      </div>
-      <div className="blur blur-f-1"></div>
-      <div className="blur blur-f-2"></div>
-      <div className="copyright">© 2023 Copyright: All rights reserved</div>
-    </div> */}
       <div className="main_container">
         <div className="first">
           <div className="logo-f">
@@ -43,11 +27,26 @@ const Footer = () => {
             <h2>Quick Links</h2>
           </div>
           <div className="list">
-            <span>Home</span><br/>
-            <span>Program</span><br/>
-            <span>Why Us</span><br/>
-            <span>Plans</span><br/>
-            <span>Testimonials</span><br/>
+            <Link to="/home">
+              <span>Home</span>
+            </Link>
+            <br />
+            <Link to="/program">
+              <span>Program</span>
+            </Link>
+            <br />
+            <Link to="/whyus">
+              <span>Why Us</span>
+            </Link>
+            <br />
+            <Link to="/plans">
+              <span>Plans</span>
+            </Link>
+            <br />
+            <Link to="/testmonials">
+              <span>Testimonials</span>
+            </Link>
+            <br />
           </div>
         </div>
         <div className="third">
@@ -76,3 +75,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
